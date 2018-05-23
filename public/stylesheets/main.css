@@ -1,0 +1,32 @@
+body{
+    background-color: #1B1D2F;
+ 
+}
+ /*#footer{*/
+     
+ /*}*/
+
+.navbar-dark .navbar-brand{
+    color: #E9E4D2;
+    font-family: 'Sniglet', cursive;
+}
+
+#jumboText{
+    color:#e29d4e;
+}
+
+.img-thumbnail img{
+    width:100%;
+}
+
+.img-thumbnail .caption-full{
+    padding: 9px;
+}
+
+.title{
+    color: #46acec;
+}
+
+.delete-form{
+    display: inline;
+}
