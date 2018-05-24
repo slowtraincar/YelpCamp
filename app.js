@@ -19,8 +19,9 @@ var commentRoutes      = require("./routes/comments"),
     
 
 /////////////////////////////////////////
-mongoose.connect(process.env.DATABASEURL);
-//mongoose.connect("mongodb://dacarter:dbpassword@ds233970.mlab.com:33970/slowtainyelpcamp");
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v9";
+mongoose.connect(url);
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
