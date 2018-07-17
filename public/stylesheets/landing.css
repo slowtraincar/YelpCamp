@@ -2,13 +2,20 @@
   z-index: 1;
   position: relative;
   text-align: center;
-  padding-top: 40vh;
+  margin-top: 40vh;
+  
+  
+ 
 }
 
 #landing-header span{
     color: #E9E4D2;
     font-family: 'Sniglet', cursive;
-    background-color: #962924;
+     /*background-color: #962924;*/
+     padding: 90px 50px 120px 50px;
+     /*border: 2px solid white;*/
+     /*border-radius: 10px;*/
+   
 }
 
 .slideshow { 
@@ -35,6 +42,7 @@
   opacity: 0;
   z-index: 0;
   animation: imageAnimation 50s linear infinite; 
+  filter: brightness(50%);
 }
 
 .slideshow li:nth-child(1) { 

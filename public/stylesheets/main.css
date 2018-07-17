@@ -1,10 +1,12 @@
 body{
     background-color: #1B1D2F;
+    overflow-x: hidden;
  
 }
- /*#footer{*/
-     
- /*}*/
+
+.card {
+    margin-bottom: 120px;
+}
 
 .navbar-dark .navbar-brand{
     color: #E9E4D2;
@@ -29,4 +31,9 @@ body{
 
 .delete-form{
     display: inline;
+}
+
+.form-width {
+    max-width: 500px;
+    margin-top: 250px;
 }
